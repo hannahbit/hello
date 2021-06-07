@@ -1,1 +1,4 @@
 <h1>Hello <%= @name %>!</h1>
+
+<%= link "Welcome Page!", to: Routes.page_path(@conn, :index) %> <br>
+<%= link "Hello World!", to: Routes.hello_path(@conn, :world) %>
